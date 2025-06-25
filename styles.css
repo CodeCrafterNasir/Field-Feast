@@ -1,18 +1,9 @@
+/* CSS BY Nasir Ismail */
 
-/* CSS by Nasir Ismail */
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-/* root colors  */
-:root {
---midnight-blue: #1F2A44;
---olive-green: #76885B;
---champagne-gold: #E5C185;
---linen: #F8F4EC;
---dark-charcoal: #2B2B2B;
---soft-white: #FAF9F6;
-
-}
-
-/* CSS Reset  */
+/* CSS REST */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -57,5 +48,106 @@ table {
 	border-spacing: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* ROOT VARIABLES */
+:root {
+--midnight-blue: #1F2A44;
+--olive-green: #76885B;
+--champagne-gold: #E5C185;
+--linen: #F8F4EC;
+--dark-charcoal: #2B2B2B;
+--soft-white: #FAF9F6;
+
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+
+.container {
+    max-width: 559px;
+    margin: auto;
+    background-color: var(--soft-white);
+}
+
+body {
+    background-color: var(--dark-charcoal);
+    font-family: 'Playfair', sans-serif;
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+
+header {
+    background-color: var(--midnight-blue);
+    text-align: center;
+    padding: 20px;
+    font-family: playfair;
+}
+
+header h1 {
+    color: var(--linen);
+    font-size: x-large;
+}
+
+header p {
+    color: var(--linen);
+}
+
+nav {
+    background-color: var(--champagne-gold);
+    padding: 5px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+ul li a{
+    color: var(--midnight-blue);
+    text-decoration: none;
+}
+
+.welcome h2{
+    font-size: larger;
+    padding: 10px;
+    color: var(--midnight-blue);
+}
+
+.welcome p {
+    padding: 10px 10px;
+    color: var(--dark-charcoal);
+    margin-top: -10px;
+}
+
+
+
+
+/* MEDIA QUERY (medium) */
+@media (min-width: 600px) {
+
+}
+
+/* MEDIA QUERY (large) */
+@media (min-width: 900px) {
+
+}
+
+/* MEDIA QUERY (xl) */
+@media (min-width: 1200px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
