@@ -64,7 +64,7 @@ table {
 
 .container {
     max-width: 559px;
-    margin: auto;
+    margin: 0 auto;
     background-color: var(--soft-white);
 }
 
@@ -108,16 +108,145 @@ ul li a{
 
 .welcome h2{
     font-size: larger;
-    padding: 10px;
+    padding: 20px;
     color: var(--midnight-blue);
 }
 
 .welcome p {
-    padding: 10px 10px;
+    padding: 20px;
     color: var(--dark-charcoal);
     margin-top: -10px;
 }
 
+.offerings h2 {
+    color: var(--midnight-blue);
+    padding: 5px;
+    font-size: larger;
+}
+
+.offerings {
+    padding: 20px;
+}
+
+.offerings h3 {
+    color: var(--linen);
+    font-size: large;
+    background-color: var(--olive-green);
+    padding: 10px 10px 0px 10px;  
+    border-radius: 5px;    
+}
+
+.offerings p {
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    padding: 10px;
+    margin-top: -10px;
+    font-size: 0.875rem;
+    border-radius: 5px;
+}
+
+.dining-exp {
+    padding: 20px;
+}
+
+.dining-exp h3 {
+    color: var(--linen);
+    font-size: large;
+    background-color: var(--olive-green);
+    padding: 10px 10px 0px 10px;  
+    border-radius: 5px;    
+}
+
+.dining-exp p {
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    padding: 10px;
+    margin-top: -10px;
+    font-size: 0.875rem;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.monthly-basket {
+    padding: 20px;
+    /* border-radius: 10px; */
+    /* background-color: var(--olive-green); */
+    color: var(--soft-white);
+}
+
+.monthly-basket h3 {
+    color: var(--linen);
+    font-size: large;
+    margin-top: 1rem;
+    border-radius: 5px;
+    background-color: var(--olive-green);
+    padding: 10px;
+}
+
+.monthly-basket p {
+    background-color: var(--olive-green);
+    margin-top: -5px;
+    padding: 20px;
+    margin-top: -20px;
+    border-radius: 5px;
+ 
+}
+
+.monthly-basket ul {
+    background-color: var(--olive-green);
+    display: block;
+}
+
+.monthly-basket li {
+    background-color: var(--olive-green);
+    padding: 20px;
+    margin-bottom: -2rem;
+    border-radius: 5px;
+    list-style-type: disc;
+    color: var(--soft-white);
+    margin-left: 27px;
+    margin-top: -20px;
+}
+
+.gallery h2 {
+    color: var(--midnight-blue);
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.gallery p {
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: -35px;
+}
+
+img {
+    padding: 20px;
+}
+
+
+
+footer {
+    background-color: var(--midnight-blue);
+    text-align: center;
+    padding: 10px;
+    color: var(--linen);
+}
+
+footer .email {
+    color: var(--champagne-gold);
+    margin-top: -5px;
+    margin-bottom: 25px;
+} 
+
+.social-media a{
+    color: var(--champagne-gold);
+   
+}
 
 
 
