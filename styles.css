@@ -71,7 +71,7 @@ table {
 body {
     background-color: var(--dark-charcoal);
     font-family: 'Playfair Display', sans-serif;
-    padding: 1rem;
+    /* padding: 1rem; */
     line-height: 1.5rem;
 }
 
@@ -122,33 +122,43 @@ ul li a{
 }
 
 .welcome h2{
-    font-size: larger;
-    padding: 20px;
+    font-size: 1.5rem;;
+    padding: 20px 20px;
     color: var(--midnight-blue);
 }
 
 .welcome p {
     padding: 20px;
     color: var(--dark-charcoal);
-    margin-top: -10px;
+    margin-top: -34px;
+    text-align:justify;
 }
 
 .offerings h2 {
     color: var(--midnight-blue);
-    padding: 5px;
-    font-size: larger;
+    padding: 20px 0px;
+    font-size: 1.75rem;
+}
+
+hr {
+    background-color: var(--champagne-gold);
+    margin: 20px;
+    height: 2px;
+    border: none;
 }
 
 .offerings {
-    padding: 20px;
+    padding: 10px 20px;
+    margin-top: -20px;
 }
 
 .offerings h3 {
     color: var(--linen);
-    font-size: large;
+    font-size: 1.25rem;
     background-color: var(--olive-green);
     padding: 10px 10px 0px 10px;  
     border-radius: 5px;    
+    font-weight: bold;
 }
 
 .offerings p {
@@ -161,7 +171,7 @@ ul li a{
 }
 
 .dining-exp {
-    padding: 20px;
+     padding: 0 20px; 
 }
 
 .dining-exp h3 {
@@ -169,7 +179,8 @@ ul li a{
     font-size: large;
     background-color: var(--olive-green);
     padding: 10px 10px 0px 10px;  
-    border-radius: 5px;    
+    border-radius: 5px;   
+    font-weight: bold; 
 }
 
 .dining-exp p {
@@ -187,7 +198,7 @@ ul li a{
 
 
 .monthly-basket {
-    padding: 20px;
+    padding: 0 20px;
     /* border-radius: 10px; */
     /* background-color: var(--olive-green); */
     color: var(--soft-white);
@@ -200,6 +211,7 @@ ul li a{
     border-radius: 5px;
     background-color: var(--olive-green);
     padding: 10px;
+    font-weight: bold;
 }
 
 .monthly-basket p {
@@ -229,20 +241,25 @@ ul li a{
 
 .gallery h2 {
     color: var(--midnight-blue);
-    font-size: 1.5rem;
-    padding: 10px;
+    font-size: 1.75rem;
+    padding: 0 20px;
 }
 
 .gallery p {
-    padding: 20px;
+    padding: 10px;
     margin: 0 auto;
     text-align: center;
-    box-shadow: #1F2A44;
+
 }
 
-.gallery img {
-  width: 100%;
-  border-radius: 5px;    
+.images {
+  padding: 0 20px; 
+  border-radius: 50px;    
+}
+.images img {
+    width: 100%;
+    border-radius: 5px;
+    display: block;
 }
 
 
@@ -263,6 +280,18 @@ footer .email {
 .social-media a{
     color: var(--champagne-gold);
    
+}
+
+
+ button {
+    background-color: var(--olive-green);
+    padding: 15px 200px; 
+    border-radius: 5px;
+    color: var(--soft-white);
+    margin: 20px auto;
+    display: block;
+ 
+
 }
 
 
