@@ -245,21 +245,25 @@ hr {
     padding: 0 20px;
 }
 
-.gallery p {
+.images p {
     padding: 10px;
     margin: 0 auto;
     text-align: center;
-
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
 }
 
 .images {
   padding: 0 20px; 
-  border-radius: 50px;    
+  border-radius: 5px;  
+  margin-top: 20px;  
 }
 .images img {
     width: 100%;
     border-radius: 5px;
     display: block;
+    pad: 20px;
+    
 }
 
 
@@ -290,14 +294,63 @@ footer .email {
     color: var(--soft-white);
     margin: 20px auto;
     display: block;
+    border: none;
+    font-weight: bold;
  
-
 }
 
 
 
 /* MEDIA QUERY (medium) */
 @media (min-width: 600px) {
+
+.our-offerings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+/* Side-by-side sections */
+
+.dining-exp {
+  flex: 1 1 48%; 
+  color: var(--soft-white);
+  border-radius: 5px;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+
+.offerings {
+  flex: 1 1 48%; 
+  color: var(--soft-white);
+  border-radius: 5px;
+  padding: 20px 10px;
+  box-sizing: border-box;
+
+}
+
+.offerings h2 {
+    background-color: var(--linen);
+}
+
+
+.offerings h3,
+.dining-exp h3 {
+  color: var(--linen);
+}
+
+/* Full-width below */
+.monthly-basket {
+  flex: 1 1 100%;
+  background-color: var(--olive-green);
+  color: var(--soft-white);
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: -20px;
+}
 
 }
 
